@@ -4,10 +4,12 @@ version = "0.1.0"
 authors = ["Bradlee Speice <bradlee@speice.io>"]
 edition = "2018"
 
+[profile.release]
+# Use opt-level 2 to make the code comparable to C++, which also compiles at -O2
+opt-level = 2
+
 [lib]
 crate-type = ["cdylib", "rlib"]
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 pyo3 = "*"

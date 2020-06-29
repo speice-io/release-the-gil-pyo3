@@ -15,7 +15,6 @@ fn fibonacci_impl(n: u64) -> u64 {
         b = c;
         // We're not particularly concerned about the actual result, just in keeping the
         // processor busy.
-        // TODO: Why the hell does this take 34 seconds? I was expecting closer to ~300ms.
         c = a.overflowing_add(b).0;
     }
 
