@@ -1,2 +1,9 @@
 /target
 Cargo.lock
+
+.tox/
+.vscode/
+*.egg-info/
+__pycache__/
+.ipynb_checkpoints/
+speiceio_pyo3/*.so
