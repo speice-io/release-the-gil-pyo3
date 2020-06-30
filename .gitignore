@@ -7,3 +7,5 @@ Cargo.lock
 __pycache__/
 .ipynb_checkpoints/
 speiceio_pyo3/*.so
+*.ipynb
+.pytest_cache/

@@ -12,4 +12,4 @@ opt-level = 2
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-pyo3 = "*"
+pyo3 = { version="0.11", features=["extension-module"]}
